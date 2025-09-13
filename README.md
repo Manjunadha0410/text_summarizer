@@ -1,11 +1,8 @@
 ### Text Summarization System (Production-Ready NLP Pipeline)
 
-```markdown
 A **production-ready NLP system** for abstractive text summarization using **Hugging Face Transformers (Pegasus model)**.  
 The project follows a modular pipeline architecture for **data ingestion, transformation, model training, evaluation, and deployment**.  
 It is exposed via a **FastAPI service** for easy integration with downstream applications.  
-
----
 
 ## 🚀 Features
 - **Data Ingestion**: Automatic download and extraction of datasets  
@@ -23,9 +20,9 @@ It is exposed via a **FastAPI service** for easy integration with downstream app
 - **Pipeline**: Custom modular ingestion → transformation → training → evaluation  
 
 ---
-
+  
 ## 📂 Project Structure
-
+```
 textSummarizer/
 ├── src/textSummarizer/
 │   ├── components/        # Data ingestion & transformation components
@@ -39,5 +36,4 @@ textSummarizer/
 ├── main.py                # Training entrypoint
 ├── Dockerfile             
 ├── requirements.txt       # Dependencies
-
 ```
